@@ -33,9 +33,7 @@ const Search = async ({ params, searchParams }) => {
             )}
           </>
         ) : (
-          <h1 className="text-center text-xl mt-20 text-cyan-500 font-bold">
-            No se encontraron mangas para la búsqueda: "{searchWord}"
-          </h1>
+         <span> {"\"No se encontraron resultados para la búsqueda: \" "} </span>
         )}
       </div>
     );
